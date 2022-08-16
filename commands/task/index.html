@@ -8,19 +8,21 @@
       
       
       
-      <link rel="icon" href="/assets/images/favicon.ico">
+        <link rel="canonical" href="https://nvim-lsp.github.io/commands/task/">
+      
+      <link rel="icon" href="../../assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.2.11">
     
     
       
-        <title>DPM Docs</title>
+        <title>Task - DPM Docs</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.8c5ef100.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8c5ef100.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.9647289d.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.9647289d.min.css">
         
       
     
@@ -35,9 +37,9 @@
       
     
     
-      <link rel="stylesheet" href="/assets/extra.css">
+      <link rel="stylesheet" href="../../assets/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -64,6 +66,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#the-task-command" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -74,9 +81,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="DPM Docs" class="md-header__button md-logo" aria-label="DPM Docs" data-md-component="logo">
+    <a href="../.." title="DPM Docs" class="md-header__button md-logo" aria-label="DPM Docs" data-md-component="logo">
       
-  <img src="/assets/logo.png" alt="logo">
+  <img src="../../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -92,7 +99,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Task
             
           </span>
         </div>
@@ -193,9 +200,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="DPM Docs" class="md-nav__button md-logo" aria-label="DPM Docs" data-md-component="logo">
+    <a href="../.." title="DPM Docs" class="md-nav__button md-logo" aria-label="DPM Docs" data-md-component="logo">
       
-  <img src="/assets/logo.png" alt="logo">
+  <img src="../../assets/logo.png" alt="logo">
 
     </a>
     DPM Docs
@@ -223,7 +230,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         Home
       </a>
     </li>
@@ -238,7 +245,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/installation/" class="md-nav__link">
+      <a href="../../installation/" class="md-nav__link">
         Install
       </a>
     </li>
@@ -251,12 +258,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       
       
@@ -279,7 +288,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/commands/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         All Commands!
       </a>
     </li>
@@ -291,12 +300,14 @@
               
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" checked>
       
       
       
@@ -319,7 +330,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/commands/about/" class="md-nav__link">
+      <a href="../about/" class="md-nav__link">
         About
       </a>
     </li>
@@ -333,7 +344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/commands/completions/" class="md-nav__link">
+      <a href="../completions/" class="md-nav__link">
         Completions
       </a>
     </li>
@@ -347,7 +358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/commands/docs/" class="md-nav__link">
+      <a href="../docs/" class="md-nav__link">
         Docs
       </a>
     </li>
@@ -359,11 +370,100 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="/commands/task/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Task
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Task
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#flags-for-the-command" class="md-nav__link">
+    Flags for the Command
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-deno-tasks-help" class="md-nav__link">
+    The Deno tasks help!
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    Usage
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-a-task-with-a-prompt" class="md-nav__link">
+    Add a task with a prompt
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-the-files" class="md-nav__link">
+    Update the files
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-the-tasks-avaliable" class="md-nav__link">
+    List the tasks avaliable
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bugs-report" class="md-nav__link">
+    Bugs report
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -375,7 +475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/commands/tools/" class="md-nav__link">
+      <a href="../tools/" class="md-nav__link">
         Tools
       </a>
     </li>
@@ -404,7 +504,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/contributing/" class="md-nav__link">
+      <a href="../../contributing/" class="md-nav__link">
         Contributing
       </a>
     </li>
@@ -419,7 +519,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/media/" class="md-nav__link">
+      <a href="../../media/" class="md-nav__link">
         Media
       </a>
     </li>
@@ -443,6 +543,71 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#flags-for-the-command" class="md-nav__link">
+    Flags for the Command
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-deno-tasks-help" class="md-nav__link">
+    The Deno tasks help!
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    Usage
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#add-a-task-with-a-prompt" class="md-nav__link">
+    Add a task with a prompt
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-the-files" class="md-nav__link">
+    Update the files
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#list-the-tasks-avaliable" class="md-nav__link">
+    List the tasks avaliable
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bugs-report" class="md-nav__link">
+    Bugs report
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -453,8 +618,80 @@
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
-  <h1>404 - Not found</h1>
+                
+  <a href="https://github.com/dpmland/docsland/edit/main/docs/commands/task.md" title="Edit this page" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
 
+
+
+<h1 id="the-task-command">The task command!</h1>
+<h2 id="flags-for-the-command">Flags for the Command <img alt="🏴‍☠️" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f3f4-200d-2620-fe0f.svg" title=":pirate_flag:" /></h2>
+<p>You can use this flags on the: <strong>task</strong> command and the <strong>run</strong> alias</p>
+<table>
+<thead>
+<tr>
+<th>Flags</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-u, --update [update]</td>
+<td>Update the deno.json file for the new tasks of the dpm.json file!</td>
+</tr>
+<tr>
+<td>-n, --new [new]</td>
+<td>Add a new task to the dpm.json file and the deno.json file!</td>
+</tr>
+<tr>
+<td>-l, --list [list]</td>
+<td>List all tasks on the dpm.json or on the deno.json file!</td>
+</tr>
+<tr>
+<td>-h, --help</td>
+<td>The CLI help message</td>
+</tr>
+</tbody>
+</table>
+<h2 id="the-deno-tasks-help">The Deno tasks help!</h2>
+<p>More info about the <a href="https://deno.land/manual/tools/task_runner">Deno Tasks</a>
+Many apps need some commands and you don't like write this many many times this
+command and here are the amazing and incredible <strong>Deno tasks</strong> well with this
+you can automate many things and are integrated with Deno but how can make this
+amazing tool better here are the <em>task command</em> on dpm.</p>
+<h2 id="usage">Usage</h2>
+<h3 id="add-a-task-with-a-prompt">Add a task with a prompt</h3>
+<p>For add a task to the files well you need only run:</p>
+<div class="highlight"><pre><span></span><code>dpm task -n
+</code></pre></div>
+<h3 id="update-the-files">Update the files</h3>
+<p>And this add the task on the deno.json and the dpm.json file well but if I add a
+new task on the dpm.json file how can update this. You need run only this
+command</p>
+<div class="highlight"><pre><span></span><code>dpm task -u
+</code></pre></div>
+<h3 id="list-the-tasks-avaliable">List the tasks avaliable</h3>
+<p>You want see what commands you have y this files here are the list in a
+beautifull table.</p>
+<div class="highlight"><pre><span></span><code>dpm task -l deno # For the deno.json file
+dpm task -l dpm # For the dpm.json file
+dpm task -l all # For the dpm and deno.json files!
+</code></pre></div>
+<h2 id="bugs-report">Bugs report <img alt="🐛" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f41b.svg" title=":bug:" /></h2>
+<p>For report bugs or errors in the documentation make a issue on the docs repo or
+in the dpm repo on the <a href="https://github.com/dpmland/">dpmland org</a> and the:</p>
+<ul>
+<li><em><a href="https://github.com/dpmland/dpm">DPM REPO</a></em>: For bugs in the CLI</li>
+<li><em><a href="https://github.com/dpmland/docs">DOCS REPO</a></em>: For bugs in the documentation</li>
+<li><em><a href="https://github.com/dpmland/web">WEB REPO</a></em>: For bugs in the website</li>
+<li><em><a href="https://github.com/dpmland/dpmland.github.io">DPMLAND.GITHUB.IO REPO</a></em>: For
+  bugs in the online website</li>
+</ul>
+<hr />
+<p>Made with <img alt="❤" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2764.svg" title=":heart:" /> in Ecuador and the World</p>
+
+              
             </article>
           </div>
         </div>
@@ -462,6 +699,41 @@
       </main>
       
         <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../docs/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Docs" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Docs
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../tools/" class="md-footer__link md-footer__link--next" aria-label="Next: Tools" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Tools
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -523,10 +795,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "/", "features": [], "search": "/assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.748e2769.min.js"></script>
+      <script src="../../assets/javascripts/bundle.748e2769.min.js"></script>
       
     
   </body>
