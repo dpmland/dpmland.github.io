@@ -43,14 +43,21 @@ description:
 
 - **publish**: For publish your package to the world you can run this!
 
-- **completions**: Generate shell completions
+- **[completions](./completions.md)**: Generate shell completions
 
 ## More information
 
 If you want known more about every dpm tool you can run
 `dpm doc command.subcommand`
 
----
+## Bugs report :bug:
 
 For report bugs or errors in the documentation make a issue on the docs repo or
-in the dpm repo on the [dpmland](https://github.com/dpmland/) org
+in the dpm repo on the [dpmland org](https://github.com/dpmland/) and the:
+
+- _DPM REPO_: For bugs in the CLI
+- _DOCS REPO_: For bugs in the documentation
+- _WEB REPO_: For bugs in the website
+- _DPMLAND.GITHUB.IO REPO_: For bugs in the online website
+
+---
