@@ -25,7 +25,7 @@ description:
 - **install || add**: If you want use external packages and dependencies can you
   use this tool!
 
-- **tools**: Here you can install tools for a better development with deno and
+- **[tools](./tools.md)**: Here you can install tools for a better development with deno and
   for complement the dpm cli.
 
 - **task || run**: With this command you can run scripts like `npm scripts` you
