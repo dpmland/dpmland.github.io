@@ -11,7 +11,7 @@
     "fmt:check": "deno fmt -c deno.json --check",
     "dev": "mkdocs serve",
     "install": "pipenv shell && pipenv install",
-    "build:release": "mkdocs gh-deploy -r origin -b main",
+    "build:release": "git push origin main && mkdocs gh-deploy -r origin -b main",
     "build": "mkdocs build",
     "test": "deno test -A --unstable",
     "lint": "deno lint -c deno.json"

@@ -18,10 +18,10 @@ You can use this flags on the: **task** command and the **run** alias
 ## The Deno tasks help!
 
 More info about the [Deno Tasks](https://deno.land/manual/tools/task_runner)
-Many apps need some commands and you don't like write this many many times
-this command and here are the amazing and incredible **Deno tasks** well with
-this you can automate many things and are integrated with Deno but how can
-make this amazing tool better here are the _task command_ on dpm.
+Many apps need some commands and you don't like write this many many times this
+command and here are the amazing and incredible **Deno tasks** well with this
+you can automate many things and are integrated with Deno but how can make this
+amazing tool better here are the _task command_ on dpm.
 
 ## Usage
 
@@ -42,6 +42,7 @@ command
 ```
 dpm task -u
 ```
+
 ### List the tasks avaliable
 
 You want see what commands you have y this files here are the list in a

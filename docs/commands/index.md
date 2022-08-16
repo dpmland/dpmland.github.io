@@ -25,11 +25,11 @@ description:
 - **install || add**: If you want use external packages and dependencies can you
   use this tool!
 
-- **[tools](./tools.md)**: Here you can install tools for a better development with deno and
-  for complement the dpm cli.
+- **[tools](./tools.md)**: Here you can install tools for a better development
+  with deno and for complement the dpm cli.
 
-- **[task || run](./task.md)**: With this command you can run scripts like `npm scripts` you
-  can define this in the `dpm.json` file.
+- **[task || run](./task.md)**: With this command you can run scripts like
+  `npm scripts` you can define this in the `dpm.json` file.
 
 - **update**: Here you can check if the file are updated `dpm_imports.json`
   dependencies and the new version avaliable
