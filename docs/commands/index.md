@@ -28,7 +28,7 @@ description:
 - **[tools](./tools.md)**: Here you can install tools for a better development with deno and
   for complement the dpm cli.
 
-- **task || run**: With this command you can run scripts like `npm scripts` you
+- **[task || run](./task.md)**: With this command you can run scripts like `npm scripts` you
   can define this in the `dpm.json` file.
 
 - **update**: Here you can check if the file are updated `dpm_imports.json`
