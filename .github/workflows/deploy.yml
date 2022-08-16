@@ -1,4 +1,4 @@
-name: Publish docs via GitHub Pages
+name: FMT Check
 
 on:
   push:
@@ -12,14 +12,6 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@master
 
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3
-
-      - name: Install Python dependencies
-        run: pip install -r requirements.txt
-
       - name: Install Deno
         uses: denoland/setup-deno@v1
         with:
@@ -29,9 +21,3 @@ jobs:
         run: deno task fmt:check
         env:
           NO_COLOR: true
-
-      - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REQUIREMENTS: requirements.txt

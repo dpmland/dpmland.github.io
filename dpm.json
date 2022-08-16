@@ -7,8 +7,13 @@
   "license": "MIT",
   "main": "mod.ts",
   "scripts": {
-    "test": "deno test -A --unstable",
     "fmt": "deno fmt -c deno.json",
+    "fmt:check": "deno fmt -c deno.json --check",
+    "dev": "mkdocs serve",
+    "install": "pipenv shell && pipenv install",
+    "build:release": "mkdocs gh-deploy -r origin -b main",
+    "build": "mkdocs build",
+    "test": "deno test -A --unstable",
     "lint": "deno lint -c deno.json"
   },
   "dependencies": {}
